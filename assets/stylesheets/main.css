@@ -1,0 +1,189 @@
+/**** Imported Styles ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+:root {
+
+  --White: hsl(0, 0%, 100%);
+  --eggshell: hsl(30, 54%, 90%);
+  --wedgebrown: hsl(30, 10%, 34%);
+  --blackstone: hsl(24, 5%, 18%);
+  --nutmeg: hsl(14, 45%, 36%);
+  --darkRose: hsl(332, 51%, 32%);
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    color: var(--wedgebrown)
+  }
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background: var(--eggshell);
+  }
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  header, main {
+    background: #fff;
+    width: 100%;
+  }
+
+  header {
+    
+    padding: 1.875rem;
+    max-width: 50rem;
+    margin: auto;
+  }
+
+  main {
+    
+    max-width: 50rem;
+    padding: 1.875rem;
+    margin: auto;
+  }
+
+  header img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  h1, h2 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+  }
+
+  header h1 {
+    margin-top: 1.5625rem;
+    color: var(--blackstone);
+  }
+
+  header p {
+    margin-top: 1.25rem;
+  }
+
+  header h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: var(--darkRose);
+    font-size: 1.125rem;
+    margin-top: 2.5rem;
+    margin-left: 1.875rem;
+  }
+
+  header ul {
+    margin-left: 3.125rem;
+    margin-top: 0.9375rem;
+  }
+
+  header ul li {
+    margin-top: 0.625rem;
+    color: var(--darkRose);
+    font-size: 0.8125rem;
+  }
+
+  header ul li p {
+    font-size: 1rem;
+    margin-left: 0.9375rem;
+  }
+
+  main section:not(:first-of-type) {
+    margin-top: 3.75rem;
+  }
+
+  main h1, main li, main th {
+    color: var(--nutmeg)
+  }
+
+  main ul, main ol {
+    margin-left: 1.5625rem;
+    margin-top: 0.9375rem;
+  }
+
+  main ul li {
+    font-size: 0.8125rem;
+  }
+
+  main ul li p {
+    font-size: 1rem;
+    margin-left: 0.9375rem;
+  }
+
+  main ol li {
+    font-weight: 700;
+  }
+
+  main ol li p {
+    margin-left: 0.9375rem;
+    font-weight: 400;
+  }
+
+  main p {
+    margin-top: 1.25rem;
+  }
+
+  main table {
+    margin-top: 0.9375rem;
+    margin-left: 1.875rem;
+    width: 46%;
+  }
+
+  main table tr {
+    line-height: 3.125rem;
+  }
+
+  main table th {
+    padding-left: 32%;
+    text-align: start;
+  }
+
+  .attribution {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8125rem;
+  }
+
+ 
+
+
+  
